@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+.bio {
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    font-family: "Trirong", sans-serif;
+    text-align: center;
+    color: green;
+    font-size: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.skills {
+    font-family: "Trirong", serif;
+    text-align: center;
+    color: blue
+}
+
+.contact {
+    font-family: "Sofia", serif;
+    text-align: center;
+    font-size: 15px;
+}
+
+a {
+    color: red;
+    text-decoration: None;
+}
+
+hr {
+    border-style: inset;
+    border-width: 2px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.languageImage {
+    float: left;
+}
+
+.languageText {
+    float: right;
+}
+
+.leadership {
+
+}
+
+a:hover {
+    color: green;
+}
+
+.columnImage {
+    float: center;
+    width: 50%;
+    padding: 2px;
+}
+
+.columnText {
+    float: center;
+    width: 50%;
+    padding: 2px;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.columnImage {
+    width: 50%;
+    float: left;
+}
+
+.column {
+    float:left;
+    width: 10%;
+}
+
+  
