@@ -28,7 +28,8 @@ a {
 .background-image {
     background-image: url('../images/sanford.jpg');
     background-size: cover;
-    height: 1000px;
+    height: 100%;
+    width: 100%;
     background-attachment: fixed;
 }
 
