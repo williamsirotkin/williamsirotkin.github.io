@@ -28,7 +28,7 @@ a {
 .background-image {
     background-image: url('../images/sanford.jpg');
     background-size: cover;
-    height: 100%;
+    height: 1000px;;
     width: 100%;
     background-attachment: fixed;
 }
@@ -46,11 +46,12 @@ a {
 
 .bio > .info {
     display: inline-block;
-    background-color: rgb(155, 207, 239); 
+    font-size: 15pt;
+    background-color: rgb(197, 224, 241); 
 }
 
 .bio .headshot {
-    width: 20%;
+    width: 75%;
     display: inline-block;
     height: auto;
 }
