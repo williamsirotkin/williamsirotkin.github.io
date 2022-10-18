@@ -57,6 +57,7 @@ a {
     background-color: rgb(230, 236, 239);
     padding-left: 10px; 
     margin: 50px;
+    width: 50%;
 }
 
 .bio .headshot {
@@ -182,6 +183,11 @@ a:hover {
 .column {
     float:left;
     width: 10%;
+}
+
+.footer {
+    text-align: center;
+    display: flex;
 }
 
   
