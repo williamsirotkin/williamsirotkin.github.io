@@ -25,13 +25,11 @@ a {
     font-size: 12pt;
 }
 
-.background-image {
-    background-image: url('../images/sanford.jpg');
-    background-size: cover;
-    height: 1000px;;
+.sanford {
     width: 100%;
-    background-attachment: fixed;
+    height: auto;
 }
+
 
 .bio {
     padding-top: 50px;
@@ -41,19 +39,21 @@ a {
     font-family: "Trirong", sans-serif;
     text-align: center;
     font-size: 20px;
-    float: right;
+    display: flex;
 }
 
 .bio > .info {
     display: inline-block;
-    font-size: 15pt;
-    background-color: rgb(197, 224, 241); 
+    font-size: 40pt;
+    background-color: rgb(230, 236, 239);
+    padding-left: 10px; 
 }
 
 .bio .headshot {
-    width: 75%;
+    width: 45%;
     display: inline-block;
     height: auto;
+    padding-right: 10px;
 }
 
 .center {
