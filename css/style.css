@@ -60,10 +60,10 @@ a {
 }
 
 .bio .headshot {
-    width: 45%;
-    height: auto;
+    height: 35%;
+    width: 35%;
     display: inline-block;
-    padding-right: 10px;
+    margin: 10px;
 }
 
 .center {
