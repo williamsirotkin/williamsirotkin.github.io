@@ -187,7 +187,19 @@ a:hover {
 }
 
 .footer {
-    display: flex;
+    background-color: gray;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.footer p {
+    color: rgb(230, 228, 228);
+    font-size: 15pt;
+}
+
+.footer p a {
+    color: white;
+    font-size: 18pt;
 }
 
 /* This ensures the website looks correct on phone screens */
