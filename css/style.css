@@ -43,6 +43,10 @@ a {
     font-weight: 300;
 }
 
+.front-text > .name {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif
+}
+
 
 .bio {
     padding-top: 50px;
