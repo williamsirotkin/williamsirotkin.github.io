@@ -192,11 +192,30 @@ a:hover {
 
 /* This ensures the website looks correct on phone screens */
 @media (max-width: 600px) {
+    .info {
+        width: 50%;
+        display: inline-block;
+        font-size: 7pt;
+        margin: 30pt;
+        background-color: rgb(230, 236, 239);
+    }
+
     .bio > .info {
         width: 50%;
         display: inline-block;
         font-size: 7pt;
         margin: 30pt;
         background-color: rgb(230, 236, 239);
+    }
+
+    .read-more {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 5px 8px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 8px;
     }
   }
