@@ -33,6 +33,7 @@ a {
 
 .sanford {
     width: 100%;
+    max-height: 1000px;
     height: auto;
 }
 
