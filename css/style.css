@@ -12,7 +12,7 @@ a {
 
 .menu {
     background-color: tan;
-    position: fixed;
+    /*position: fixed;*/
     width: 100%;
     padding: 2%;
     padding-left: 0%;
@@ -89,9 +89,9 @@ a {
     font-family: "Trirong", sans-serif;
     text-align: center;
     display: inline-block;
-    font-size: 40pt;
     font-size: 2.2vw;
-    margin: 40pt;
+    margin: 6vw;
+    padding: 1vw;
     background-color: rgb(230, 236, 239);
     
 }
@@ -210,12 +210,12 @@ a:hover {
 
 .footer p {
     color: rgb(230, 228, 228);
-    font-size: 15pt;
+    font-size: 2vw;
 }
 
 .footer p a {
     color: white;
-    font-size: 18pt;
+    font-size: 2.5vw;
 }
 
 /* This ensures the website looks correct on phone screens */
