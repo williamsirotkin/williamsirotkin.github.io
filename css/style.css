@@ -224,14 +224,6 @@ a:hover {
 
 /* This ensures the website looks correct on phone screens */
 @media (max-width: 600px) {
-
-
-    .front-text {
-        text-align: center;
-        font-size: 10pt;
-        font-family: cursive;
-        font-weight: 300;
-    }
 /*
     .info {
         width: 50%;
@@ -240,7 +232,7 @@ a:hover {
         margin: 30pt;
         background-color: rgb(230, 236, 239);
     }
-*/
+
     .bio > .info {
         width: 50%;
         display: inline-block;
@@ -248,7 +240,7 @@ a:hover {
         margin: 30pt;
         background-color: rgb(230, 236, 239);
     }
-/*
+
     .read-more {
         background-color: #4CAF50; 
         border: none;
