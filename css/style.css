@@ -79,15 +79,23 @@ a {
     margin: 10px;
 }
 
+.mid-image {
+    background-image: url("http://cdn.shopify.com/s/files/1/0112/9739/0655/products/ArchposterPOS0032436.1_1200x1200.jpg?v=1578164009");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
 .center {
     text-align: center;
 }
 
 .info {
     width: 50%;
+    font-family: "Trirong", sans-serif;
+    text-align: center;
     display: inline-block;
     font-size: 40pt;
-    font-size: 3vw;
+    font-size: 2.2vw;
     margin: 50pt;
     background-color: rgb(230, 236, 239);
     
@@ -131,11 +139,11 @@ a {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 1.5vw 2vw;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 2vw;
 }
 
 .contact {
@@ -224,7 +232,7 @@ a:hover {
         font-family: cursive;
         font-weight: 300;
     }
-
+/*
     .info {
         width: 50%;
         display: inline-block;
@@ -232,7 +240,7 @@ a:hover {
         margin: 30pt;
         background-color: rgb(230, 236, 239);
     }
-
+*/
     .bio > .info {
         width: 50%;
         display: inline-block;
@@ -240,7 +248,7 @@ a:hover {
         margin: 30pt;
         background-color: rgb(230, 236, 239);
     }
-
+/*
     .read-more {
         background-color: #4CAF50; 
         border: none;
@@ -251,5 +259,6 @@ a:hover {
         display: inline-block;
         font-size: 8px;
     }
+    */
     
   }
