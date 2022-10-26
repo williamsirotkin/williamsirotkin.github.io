@@ -7,7 +7,15 @@
     <title>William Sirotkin</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+
+     <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+     <!-- Load our React component. -->
+    <script src="main.js"></script>
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia"> 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -33,8 +41,6 @@
         <br>
         <p>CS Student at UGA </p>
     </div> 
-    <br>
-    <br>
     <div class = "bio">
         <img class = "headshot" src="../images/headshot.jpg" alt="William Sirotkin">
         <div class = "info">
