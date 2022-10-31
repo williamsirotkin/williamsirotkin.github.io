@@ -16,7 +16,7 @@ You may also see any lint errors in the console.
 
 ### `npm run deploy`
 
-Deploys the app to public website
+Deploys the app to [public website](https://williamsirotkin.github.io)
 
 ### `npm test`
 
