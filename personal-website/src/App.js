@@ -31,7 +31,7 @@ function FrontText () {
         <div class = "name">
             <h1> William Sirotkin </h1>
         </div>
-        <p> CS Student at UGA </p>
+        <p> CS Student at UGA. React App </p>
     </div> 
   )
 }
