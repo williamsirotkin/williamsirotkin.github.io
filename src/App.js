@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import './style.css';
-import { ExperienceImageRow} from './experience.js';
+import {ExperienceImageRow} from './Experience.js';
 
 function Menu () {
   return (
@@ -113,7 +113,6 @@ function Mock() {
 function App () {
   return (
   <React.Fragment>
-    <Mock/>
     <Menu/>
     <FrontImg/>
     <FrontText/>
